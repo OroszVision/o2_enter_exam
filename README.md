@@ -30,7 +30,7 @@ V původním zadání bylo uvedeno, že uživatelé budou reprezentováni jako *
 3. **Spuštění aplikace: Po sestavení aplikace spusťte:**:
     ```bash
     java -jar target/o2_enter_exam-0.0.1-SNAPSHOT.jar
-**Aplikace bude dostupná na http://localhost:8080.**
+**Aplikace bude dostupná na http://localhost:8080**
 
 **Nebo využijte jedno z několik IDE podporující Spring Boot pro spuštení pro testování**
 
@@ -46,7 +46,7 @@ V původním zadání bylo uvedeno, že uživatelé budou reprezentováni jako *
 
   ## Swagger UI
   **Pro interaktivní testování API použijte Swagger UI na následující URL:**
-  ***http://localhost:8080/swagger-ui/***
+  ***http://localhost:8080/swagger-ui/index.html***
 
   **Swagger UI poskytuje přehled všech dostupných endpointů API a umožňuje jejich testování.**
 
