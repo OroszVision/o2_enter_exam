@@ -38,6 +38,9 @@ public class AuthService {
             newUser.setPassword(passwordEncoder.encode(request.getPassword()));
             newUser.setEmail(request.getEmail());
             newUser.setUsername(request.getUsername());
+            newUser.setFirstName(request.getFirstname());
+            newUser.setLastName(request.getLastname());
+            newUser.setAge(request.getAge());
             appUserRepository.save(newUser);
             return new RegisterResponse("User registered successfully!", newUser.getEmail());
         } catch (InvalidParameterException ex) {
